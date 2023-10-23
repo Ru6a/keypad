@@ -1,0 +1,41 @@
+{
+    "manufacturer": "Ruba",
+    "keyboard_name": "keypad",
+    "maintainer": "-",
+    "development_board": "blackpill_f401",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["A9", "B9", "B1"],
+        "rows": ["A11", "B7", "C13"]
+    },
+    "processor": "STM32F401",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x1488",
+        "vid": "0x8841"
+    },
+    "layouts": {
+        "LAYOUT_ortho_3x3": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+                { "matrix": [2, 0], "x": 0, "y": 2 },
+                { "matrix": [2, 1], "x": 1, "y": 2 },
+                { "matrix": [2, 2], "x": 2, "y": 2 }
+            ]
+        }
+    }
+}
