@@ -3,11 +3,6 @@
 
 #pragma once
 
-#define MATRIX_ROWS 3
-#define MATRIX_COLS 3
-#define MATRIX_ROWS_PINS { A11, B7, C13 }
-#define MATRIX_COL_PINS { A9, B9, B1 }
-#define DYNAMIC_KEYMAP_LAYER_COUNT 2
 
 /*
  * Feature disable options
