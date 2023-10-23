@@ -13,7 +13,7 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["A9", "B9", "B1"],
+        "cols": ["A8", "B9", "B1"],
         "rows": ["A7", "B7", "C13"]
     },
     "url": "",
