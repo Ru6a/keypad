@@ -5,7 +5,7 @@
     "development_board": "blackpill_f401",
     "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": true,
+        "bootmagic": false,
         "command": false,
         "console": false,
         "extrakey": true,
@@ -16,7 +16,6 @@
         "cols": ["A9", "B9", "B1"],
         "rows": ["A11", "B7", "C13"]
     },
-    "processor": "STM32F401",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
